@@ -34,12 +34,12 @@ h1 {
 }
  
 .stroke {
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: red;
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 1px;
-  right: -9px;
+  right: -7px;
 
 }
 
@@ -50,7 +50,7 @@ h1 {
 	background-color: #FFFF33;
 	border-color: #FFFF33;
 	color: red;
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 .btn-primary:hover {
@@ -74,9 +74,25 @@ h1 {
 	height: 4rem;
 }
 
-#exampleFormControlTextarea1 {
-	margin-bottom: 40px;
-	background-color: yellow;
-	
+
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .stroke {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: red;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 1px;
+  right: -9px;
 }
+.btn-primary {
+	background-color: #FFFF33;
+	border-color: #FFFF33;
+	color: red;
+	font-size: 2rem;
+}
+}
+
 
