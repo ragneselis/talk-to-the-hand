@@ -44,6 +44,10 @@ h1 {
 
 }
 
+.win {
+	color: #40e0d0;
+
+}
 .btn {
 	border-radius: 10px 5px / 30px 18px;
 }
@@ -79,6 +83,7 @@ h1 {
 .deep {
 	margin-top: 4rem;
 	font-size: 1.2rem;
+	color:#ffffff;
 	animation: hinge; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 20s; /* don't forget to set a duration! */
   animation-delay: 5s;
