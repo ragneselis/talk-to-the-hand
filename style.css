@@ -77,6 +77,7 @@ h1 {
 }
 
 .deep {
+	margin-top: 4rem;
 	font-size: 1.2rem;
 	animation: hinge; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 20s; /* don't forget to set a duration! */
