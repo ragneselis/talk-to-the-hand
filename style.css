@@ -1,0 +1,82 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Press Start 2P', cursive;
+	font-family: 'Rubik Mono One', sans-serif;
+	background: url(images/landing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: yellow;}
+
+  ::selection {
+  color: red;
+  background: yellow;
+}
+
+.logo {
+	margin-bottom: 56px;
+}
+
+h1 {
+	
+	color: #FFFF33;
+}
+
+.layered {
+	position: relative;
+}
+ 
+.stroke {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: red;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 1px;
+  right: -9px;
+
+}
+
+.btn {
+	border-radius: 10px 5px / 30px 18px;
+}
+.btn-primary {
+	background-color: #FFFF33;
+	border-color: #FFFF33;
+	color: red;
+	font-size: 2rem;
+}
+
+.btn-primary:hover {
+	background-color: #e1007c;
+	border-color: #e1007c;
+	color: #FFFF33;
+}
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.test {
+	padding: 1rem 2rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap:16px;
+}
+
+.buffer {
+	height: 4rem;
+}
+
+#exampleFormControlTextarea1 {
+	margin-bottom: 40px;
+	background-color: yellow;
+	
+}
+
