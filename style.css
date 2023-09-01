@@ -81,7 +81,7 @@ h1 {
 }
 
 .deep {
-	margin-top: 4rem;
+	margin-bottom: 3rem;
 	font-size: 1.2rem;
 	color:#ffffff;
 	animation: hinge; /* referring directly to the animation's @keyframe declaration */
