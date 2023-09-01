@@ -27,6 +27,7 @@ html {
 h1 {
 	
 	color: #FFFF33;
+	animation-delay: 2;
 }
 
 .layered {
@@ -39,7 +40,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 1px;
-  right: -7px;
+  right: -6px;
 
 }
 
@@ -51,6 +52,7 @@ h1 {
 	border-color: #FFFF33;
 	color: red;
 	font-size: 1rem;
+	animation-iteration-count: 2;
 }
 
 .btn-primary:hover {
@@ -74,7 +76,16 @@ h1 {
 	height: 4rem;
 }
 
-
+.deep {
+	font-size: 1.2rem;
+	animation: hinge; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 20s; /* don't forget to set a duration! */
+  animation-delay: 5s;
+  display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap:16px;
+}
 
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
