@@ -36,7 +36,7 @@ h1 {
  
 .stroke {
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-color: #e1007c;
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 1px;
@@ -93,12 +93,18 @@ h1 {
 	gap:16px;
 }
 
+.logo {
+	animation: tada; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 20s; /* don't forget to set a duration! */
+  animation-delay: 1s;
+  animation-iteration-count: 3;
+}
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
   .stroke {
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-color: #e1007c;
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 1px;
@@ -107,7 +113,7 @@ h1 {
 .btn-primary {
 	background-color: #FFFF33;
 	border-color: #FFFF33;
-	color: red;
+	color: #e1007c;
 	font-size: 2rem;
 }
 }
