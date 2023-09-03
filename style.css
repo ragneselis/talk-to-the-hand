@@ -12,16 +12,20 @@ html {
 
 }
 ::-moz-selection { /* Code for Firefox */
-  color: red;
+  color: #e1007c;
   background: yellow;}
 
   ::selection {
-  color: red;
+  color: #e1007c;
   background: yellow;
 }
 
 .logo {
 	margin-bottom: 56px;
+}
+
+.bother {
+	display: flex;
 }
 
 h1 {
