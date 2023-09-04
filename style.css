@@ -39,8 +39,10 @@ h1 {
   -webkit-text-stroke-color: #e1007c;
   -webkit-text-fill-color: transparent;
   position: absolute;
-  top: 1px;
-  left: 8px;
+  top: 2px;
+  left:9px;
+  
+  
   
 }
 
@@ -126,8 +128,6 @@ border: 3px solid #FFFF33;
   -webkit-text-stroke-color: #e1007c;
   -webkit-text-fill-color: transparent;
   position: absolute;
-  top: 1px;
-  left: 6px;
   
 }
 
