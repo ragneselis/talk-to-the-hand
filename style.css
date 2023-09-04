@@ -11,7 +11,7 @@ html {
   background-size: cover;
 
 }
-::-moz-selection { /* Code for Firefox */
+	::-moz-selection { /* Code for Firefox */
   color: #e1007c;
   background: yellow;}
 
@@ -24,12 +24,7 @@ html {
 	margin-bottom: 56px;
 }
 
-.bother {
-	display: flex;
-}
-
 h1 {
-	
 	color: #FFFF33;
 	animation-delay: 2;
 }
@@ -44,17 +39,18 @@ h1 {
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 1px;
-  right: -6px;
-
+  left: 8px;
+  
 }
 
 .win {
 	color: #40e0d0;
-
 }
+
 .btn {
 	border-radius: 10px 5px / 30px 18px;
 }
+
 .btn-primary {
 	background-color: #FFFF33;
 	border-color: #FFFF33;
@@ -68,6 +64,7 @@ h1 {
 	border-color: #e1007c;
 	color: #FFFF33;
 }
+
 .btn-xl {
 	padding: 1rem 2rem;
 }
@@ -79,11 +76,9 @@ h1 {
 	align-items: center;
 	gap:16px;
 }
-
 .buffer {
 	height: 4rem;
 }
-
 .deep {
 	margin-bottom: 3rem;
 	font-size: 1.2rem;
@@ -104,6 +99,20 @@ h1 {
   animation-iteration-count: 3;
 }
 
+label {
+	color:#e1007c;
+	margin-bottom: 1rem;
+}
+
+textarea {
+	margin-bottom: 1rem;
+}
+
+.form-control:focus {
+border: 3px solid #FFFF33;
+}
+
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
   .stroke {
@@ -112,8 +121,9 @@ h1 {
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 1px;
-  right: -9px;
+  
 }
+
 .btn-primary {
 	background-color: #FFFF33;
 	border-color: #FFFF33;
