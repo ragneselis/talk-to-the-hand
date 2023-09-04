@@ -31,6 +31,7 @@ h1 {
 
 .layered {
 	position: relative;
+	margin-bottom: 40px;
 }
  
 .stroke {
@@ -117,6 +118,7 @@ border: 3px solid #FFFF33;
 }
 
 
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
   .stroke {
@@ -125,6 +127,7 @@ border: 3px solid #FFFF33;
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 1px;
+  left: 6px;
   
 }
 
