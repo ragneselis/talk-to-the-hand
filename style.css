@@ -109,6 +109,9 @@ textarea {
 	margin-bottom: 1rem;
 }
 
+.form-control {
+	border-color: #40e0d0;
+}
 .form-control:focus {
 border: 3px solid #FFFF33;
 }
